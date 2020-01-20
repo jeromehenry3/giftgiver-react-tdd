@@ -4,6 +4,15 @@ import App from './App';
 
 const app = shallow(<App />);
 
-it('rendres correctly', () => {
-    expect(app).toMatchSnapshot();
+it('renders correctly', () => {
+    expect(app.debug()).toMatchSnapshot();
 });
+
+it('initializes the `state` with an empty list of gifts', () => {
+    expect(app.state().gifts).toEqual([]);
+})
+
+it('adds a new gift to `state` when clickng the `add gift` button', () => {
+    app.find('.btn-add').simulate('click');
+    expect(app.state().gifts).toEqual([{id: 1}]);
+})
