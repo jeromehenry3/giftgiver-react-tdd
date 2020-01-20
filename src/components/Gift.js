@@ -18,6 +18,13 @@ class Gift extends Component {
                             className='input-person'
                         />
                     </Form.Group>
+                    <Form.Group>
+                        <Form.Label>Cadeau</Form.Label>
+                        <Form.Control
+                            onChange={evt => this.setState({ present: evt.target.value })}
+                            className='input-present'
+                        />
+                    </Form.Group>
                 </Form>
             </div>
         );
