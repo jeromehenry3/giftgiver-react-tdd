@@ -1,3 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Gift renders properly 1`] = `ShallowWrapper {}`;
+exports[`Gift renders properly 1`] = `
+"<div>
+  <Form inline={false}>
+    <FormGroup>
+      <FormLabel column={false} srOnly={false}>
+        Personne
+      </FormLabel>
+      <FormControl onChange={[Function: onChange]} className=\\"input-person\\" />
+    </FormGroup>
+    <FormGroup>
+      <FormLabel column={false} srOnly={false}>
+        Cadeau
+      </FormLabel>
+      <FormControl onChange={[Function: onChange]} className=\\"input-present\\" />
+    </FormGroup>
+  </Form>
+  <Button className=\\"btn-remove\\" onClick={[undefined]} variant=\\"primary\\" active={false} disabled={false} type=\\"button\\">
+    Retirer le cadeau
+  </Button>
+</div>"
+`;
