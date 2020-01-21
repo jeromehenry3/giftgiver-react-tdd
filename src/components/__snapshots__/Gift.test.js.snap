@@ -16,7 +16,7 @@ exports[`Gift renders properly 1`] = `
       <FormControl onChange={[Function: onChange]} className=\\"input-present\\" />
     </FormGroup>
   </Form>
-  <Button className=\\"btn-remove\\" onClick={[undefined]} variant=\\"primary\\" active={false} disabled={false} type=\\"button\\">
+  <Button className=\\"btn-remove\\" onClick={[Function: onClick]} variant=\\"primary\\" active={false} disabled={false} type=\\"button\\">
     Retirer le cadeau
   </Button>
 </div>"
