@@ -9,7 +9,7 @@ class Gift extends Component {
 
     render() {
         return (
-            <div>
+            <div className='gift'>
                 <Form>
                     <Form.Group>
                         <Form.Label>Personne</Form.Label>
